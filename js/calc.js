@@ -20,5 +20,6 @@ function appuisSymbole(sym) {
 }
 
 function appuisClear() {
+    //On vide la balise résultat
     resultat.innerHTML = ""
 }
