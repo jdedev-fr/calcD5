@@ -13,7 +13,7 @@ function appuisSymbole(sym) {
     let fExiste = resultat.innerHTML.indexOf('X')
     let dExiste = resultat.innerHTML.indexOf('/')
 
-    //on tets si aucun des 4 symboles n'existe dans le résultat
+    //on test si aucun des 4 symboles n'existe dans le résultat
     if (pExiste == -1 && mExiste == -1 && fExiste == -1 && dExiste == -1) {
         resultat.innerHTML += sym
     }
