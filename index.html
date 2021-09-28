@@ -14,8 +14,8 @@
     <div class="calculatrice">
         <div id="resultat"></div>
         <div class="btn" onclick="appuisClear()">CE</div>
-        <div class="btn">C</div>
-        <div class="btn">&larr;</div>
+        <div class="btn" onclick="appuisC()">C</div>
+        <div class="btn" onclick="bksp()">&larr;</div>
         <div class="btn" onclick="appuisSymbole('/')">/</div>
         <div class="btn" onclick="appuisTouche(7)">7</div>
         <div class="btn" onclick="appuisTouche(8)">8</div>
@@ -31,7 +31,7 @@
         <div class="btn" onclick="appuisSymbole('+')">+</div>
         <div class="btn">+/-</div>
         <div class="btn" onclick="appuisTouche(0)">0</div>
-        <div class="btn">.</div>
+        <div class="btn" onclick="appuisPt()">.</div>
         <div class="btn" onclick="egal()">=</div>
     </div>
 </body>
